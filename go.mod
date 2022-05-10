@@ -122,6 +122,8 @@ require (
 	nhooyr.io/websocket v1.8.6 // indirect
 )
 
+require github.com/patrickmn/go-cache v2.1.0+incompatible
+
 replace (
 	github.com/cosmos/iavl => github.com/cosmos/iavl v0.17.3
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
